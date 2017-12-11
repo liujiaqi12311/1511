@@ -74,7 +74,7 @@ form span{
             <input type="password" name="zhi" value="<?php if(isset($data['zhi'])){echo $data['zhi'];}?>" placeholder="请输入您现在的工作地址">
         </p>
         <p class="handler-button">
-            <a class="a_button" href="http://localhost/xiao_yi/qiandao/frontend/web/index.php?r=zhu/data_show">上一步</a>
+            <a class="a_button" href="http://localhost/xiao_yi/qian_dao/frontend/web/index.php?r=zhu/data_show">上一步</a>
             <?= Html::submitButton('下一步', ['class' => 'btn btn-primary']) ?>
         </p>
     <?php ActiveForm::end(); ?>
