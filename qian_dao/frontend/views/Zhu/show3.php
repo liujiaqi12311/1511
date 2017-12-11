@@ -99,7 +99,7 @@ form span{
         </p>
         <p><input type="hidden" value="1" id='lack' name="lack"></p>
         <p class="handler-button">
-            <a class="a_button" href="http://localhost/nine/advanced/frontend/web/index.php?r=zhu/show2">上一步</a>
+            <a class="a_button" href="http://localhost/xiao_yi/qian_dao/frontend/web/index.php?r=zhu/show2">上一步</a>
             <?= Html::submitButton('完成', ['class' => 'btn btn-primary']) ?>
         </p>
         <?php ActiveForm::end(); ?>
